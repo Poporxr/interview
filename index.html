@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emmanuel Aondohemba | Full-Stack Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#top">Skip to content</a>
+
+    <div class="page">
+      <header class="site-header" id="siteHeader">
+        <a class="brand" href="#top" aria-label="Emmanuel Aondohemba home">EA.</a>
+
+        <button
+          class="nav-toggle"
+          id="navToggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="siteNav"
+          aria-label="Open menu"
+        >
+          <span class="nav-toggle-bar"></span>
+        </button>
+
+        <nav class="site-nav" id="siteNav" aria-label="Primary navigation">
+          <a href="#about" data-nav-link>About</a>
+          <a href="#work" data-nav-link>Work</a>
+          <a href="#experience" data-nav-link>Experience</a>
+          <a href="#contact" data-nav-link>Contact</a>
+          <a class="resume-link" href="assets/resume.pdf" target="_blank" rel="noreferrer" data-nav-link>
+            Resume <span aria-hidden="true">&darr;</span>
+          </a>
+        </nav>
+      </header>
+
+      <div class="nav-backdrop" id="navBackdrop" hidden></div>
+
+      <main id="top">
+        <section class="hero" id="about">
+          <div class="hero-copy">
+            <p class="status"><span></span>Available for opportunities</p>
+            <h1>Emmanuel<br />Aondohemba</h1>
+            <p class="role">Full-Stack Web &amp; Mobile Engineer</p>
+            <p class="intro">
+              I build production-style web, mobile, fintech, travel and document-intelligence
+              products using TypeScript, React, React Native, Python and modern backend tools.
+            </p>
+
+            <div class="actions">
+              <a class="button primary" href="#work">View my work <span aria-hidden="true">&nearr;</span></a>
+              <a class="button secondary" href="https://github.com/Poporxr" target="_blank" rel="noreferrer">
+                GitHub
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-photo-frame" aria-hidden="true"></div>
+            <img
+              class="hero-photo"
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=80"
+              alt="Portrait placeholder"
+            />
+            <ul class="hero-focus" aria-label="Domains I build for">
+              <li>Fintech</li>
+              <li>Travel</li>
+              <li>Academic</li>
+              <li>Documents</li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="contact-strip rule" aria-label="Contact details">
+          <a href="https://maps.google.com/?q=Benue,%20Nigeria" target="_blank" rel="noreferrer"
+            >Location: Benue, Nigeria</a
+          >
+          <a href="mailto:dominicterngu123@gmail.com">Email: dominicterngu123@gmail.com</a>
+          <a href="tel:+2349164228242">Phone: 09164228242</a>
+          <a href="https://www.linkedin.com/in/emmanuel-aondohemba-579a5a311" target="_blank" rel="noreferrer"
+            >LinkedIn</a
+          >
+          <a href="https://github.com/Poporxr" target="_blank" rel="noreferrer">GitHub</a>
+        </section>
+
+        <section class="stats rule" aria-label="Portfolio highlights">
+          <div>
+            <strong>5+</strong>
+            <span>Major projects</span>
+          </div>
+          <div>
+            <strong>3+</strong>
+            <span>Years learning</span>
+          </div>
+          <div>
+            <strong>Web + Mobile</strong>
+            <span>Cross-platform focus</span>
+          </div>
+        </section>
+
+        <section class="section" id="work">
+          <div class="section-heading">
+            <div>
+              <h2>Selected work</h2>
+              <p>Products I've designed and built across web, mobile and backend systems.</p>
+            </div>
+            <a href="https://github.com/Poporxr" target="_blank" rel="noreferrer"
+              >More on GitHub <span aria-hidden="true">&rarr;</span></a
+            >
+          </div>
+
+          <div class="work-list">
+            <article class="project-card">
+              <div class="project-image">
+                <img
+                  src="https://images.unsplash.com/photo-1551650975-87deedd944c3?auto=format&fit=crop&w=900&q=80"
+                  alt="Mobile application preview"
+                />
+              </div>
+              <div class="project-body">
+                <h3>Studora</h3>
+                <p class="project-type">Academic Social &amp; AI Study Platform</p>
+                <p>Course resources, social feeds, messaging, subscriptions and AI study tools across web and mobile.</p>
+                <div class="tags">
+                  <span>Next.js</span>
+                  <span>TypeScript</span>
+                  <span>Expo</span>
+                  <span>PostgreSQL</span>
+                  <span>Clerk</span>
+                </div>
+              </div>
+              <a class="card-link" href="https://github.com/Poporxr" target="_blank" rel="noreferrer" aria-label="Open Studora project"
+                >&nearr;</a
+              >
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-image--travel">
+                <img
+                  src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80"
+                  alt="Travel booking preview"
+                />
+              </div>
+              <div class="project-body">
+                <h3>FirstBookings</h3>
+                <p class="project-type">Travel Booking Platform</p>
+                <p>Booking flows for stays, flights and road travel with payments, discounts, tickets and barcodes.</p>
+                <div class="tags">
+                  <span>Next.js</span>
+                  <span>Prisma</span>
+                  <span>PostgreSQL</span>
+                  <span>Clerk</span>
+                </div>
+              </div>
+              <a class="card-link" href="https://github.com/Poporxr" target="_blank" rel="noreferrer" aria-label="Open FirstBookings project"
+                >&nearr;</a
+              >
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-image--dark">
+                <img
+                  src="https://images.unsplash.com/photo-1642790106117-e829e14a795f?auto=format&fit=crop&w=900&q=80"
+                  alt="Trading dashboard preview"
+                />
+              </div>
+              <div class="project-body">
+                <h3>Edgeworth</h3>
+                <p class="project-type">Fintech &amp; Copy-Trading Platform</p>
+                <p>Trading terminal, copy trading, wallets, KYC and mobile-first investment experiences.</p>
+                <div class="tags">
+                  <span>React</span>
+                  <span>React Native</span>
+                  <span>TypeScript</span>
+                  <span>REST APIs</span>
+                </div>
+              </div>
+              <a class="card-link" href="https://github.com/Poporxr" target="_blank" rel="noreferrer" aria-label="Open Edgeworth project"
+                >&nearr;</a
+              >
+            </article>
+          </div>
+        </section>
+
+        <section class="section skills-section rule">
+          <div class="section-heading">
+            <h2>What I work with</h2>
+            <p>Always learning more.</p>
+          </div>
+          <div class="skills" aria-label="Technical skills">
+            <span>TypeScript</span>
+            <span>JavaScript</span>
+            <span>React</span>
+            <span>Next.js</span>
+            <span>React Native</span>
+            <span>Expo</span>
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>PostgreSQL</span>
+            <span>Prisma</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Convex</span>
+            <span>Redis</span>
+            <span>Vercel</span>
+            <span>Git &amp; GitHub</span>
+          </div>
+        </section>
+
+        <section class="section experience" id="experience">
+          <div class="section-heading">
+            <h2>Experience</h2>
+            <a href="assets/resume.pdf" target="_blank" rel="noreferrer">View full resume <span aria-hidden="true">&rarr;</span></a>
+          </div>
+
+          <div class="experience-grid">
+            <article>
+              <h3>Lead Frontend Engineer</h3>
+              <p class="muted">Edgeworth &bull; Jun 2026 - Present</p>
+              <p>Own frontend development across web and React Native mobile applications for Edgeworth's capital-allocation and copy-trading platform.</p>
+            </article>
+            <article>
+              <h3>Python Programmer Intern</h3>
+              <p class="muted">Greg &amp; Co ICT Hub &bull; 6-month internship</p>
+              <p>Gained hands-on Python experience working with practical scripts and existing codebases in an ICT development environment.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="section beyond">
+          <h2>Beyond code</h2>
+          <p>A few moments outside the IDE.</p>
+          <div class="photo-grid" aria-label="Personal photos">
+            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=500&q=80" alt="Personal photo 1" />
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=500&q=80" alt="Personal photo 2" />
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=500&q=80" alt="Personal photo 3" />
+            <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=500&q=80" alt="Personal photo 4" />
+            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=500&q=80" alt="Personal photo 5" />
+          </div>
+        </section>
+
+        <section class="cta" id="contact">
+          <div>
+            <h2>Let's build something useful.</h2>
+            <p>I'm open to internships, junior roles and exciting projects.</p>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="mailto:dominicterngu123@gmail.com">Get in touch <span aria-hidden="true">&nearr;</span></a>
+            <a class="icon-link" href="https://www.linkedin.com/in/emmanuel-aondohemba-579a5a311" target="_blank" rel="noreferrer" aria-label="LinkedIn">in</a>
+            <a class="icon-link" href="https://github.com/Poporxr" target="_blank" rel="noreferrer" aria-label="GitHub">&bull;</a>
+            <a class="icon-link" href="mailto:dominicterngu123@gmail.com" aria-label="Email">@</a>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <strong>EA.</strong>
+        <span>&copy; 2026 Emmanuel Aondohemba. All rights reserved.</span>
+        <span>Build &nbsp; Learn &nbsp; Solve &nbsp; Repeat</span>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
